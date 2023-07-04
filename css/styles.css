@@ -386,6 +386,7 @@ text-align: center;
   text-transform: uppercase;
   color: var(--iris);
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-white {
@@ -396,7 +397,6 @@ text-align: center;
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-top: 17px;
   width: 264px;
 }
 
