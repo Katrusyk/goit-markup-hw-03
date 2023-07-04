@@ -101,8 +101,6 @@ width: calc((100% - 48px) / 3);
 /* HEADER */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -199,8 +197,8 @@ width: calc((100% - 48px) / 3);
   letter-spacing: 1.12px;
 
   max-width: 496px;
-  padding-bottom: 46px;
   margin: 0 auto;
+  margin-bottom: 46px;
 }
 
 .order-btn {
@@ -278,18 +276,15 @@ width: calc((100% - 48px) / 3);
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-
-  padding-top: 60px;
     padding-bottom: 120px;
-    margin-bottom: 72px;
 }
 
-.title {
-  font-size: 1.17;
-  letter-spacing: 0.72px;
+.title-working {
+  font-size: 36px;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 72px;
 }
 
 .working-list {
@@ -314,14 +309,16 @@ width: calc((100% - 48px) / 3);
 }
 
 .team {
+  padding: 120px 0;
   background-color: var(--cloud);
+}
+
+.title-team {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-
-padding: 120px 0;
 margin-bottom: 72px;
 }
 
@@ -336,7 +333,7 @@ margin-bottom: 72px;
 }
 
 .team-img {
-  margin-bottom: 32px;
+ 
 }
 
 .employee {
@@ -363,7 +360,6 @@ padding: 32px 16px;
   font-size: 16px;
   letter-spacing: 0.02em;
 text-align: center;
-  margin-bottom: 32px;
 }
 
 .developer {
@@ -390,7 +386,6 @@ text-align: center;
   text-transform: uppercase;
   color: var(--iris);
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-white {
