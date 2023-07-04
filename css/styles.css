@@ -96,9 +96,7 @@ button {
 }
 
 card-set-item {
-  width: calc(
-    (100%- (var(--items)-1) * var(--indent-column)) / var(--indent-column)
-  );
+width: calc((100% - 48px) / 3);
 }
 /* HEADER */
 
@@ -215,6 +213,7 @@ card-set-item {
   letter-spacing: 0.04em;
   min-width: 169px;
   height: 56px;
+  border: none;
 
   display: block;
   margin: 0 auto;
@@ -231,8 +230,7 @@ card-set-item {
 
 /* benefits */
 .benefits {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 
 .benefits-title {
@@ -246,6 +244,7 @@ card-set-item {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  gap: 24px;
 }
 
 .benefits-item {
@@ -281,7 +280,8 @@ card-set-item {
   letter-spacing: 0.02em;
 
   padding-top: 60px;
-  padding-bottom: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 72px;
 }
 
 .title {
@@ -321,8 +321,8 @@ card-set-item {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 
-  padding-top: 60px;
-  padding-bottom: 120px;
+padding: 120px 0;
+margin-bottom: 72px;
 }
 
 .team-list {
@@ -332,10 +332,15 @@ card-set-item {
 
 .team-item {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
   margin-bottom: 32px;
+}
+
+.employee {
+padding: 32px 16px;
 }
 
 .p-designer {
@@ -348,6 +353,7 @@ card-set-item {
   letter-spacing: 0.4px;
   color: var(--navyblue);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .position {
@@ -356,7 +362,7 @@ card-set-item {
   letter-spacing: 0.32px;
   font-size: 16px;
   letter-spacing: 0.02em;
-
+text-align: center;
   margin-bottom: 32px;
 }
 
@@ -383,6 +389,8 @@ card-set-item {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-white {
@@ -413,6 +421,7 @@ card-set-item {
 .portfolio-btn:focus {
   background-color: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
 }
 
 .project-name {
@@ -443,14 +452,34 @@ card-set-item {
 }
 
 .portfolio-btn {
-  padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower);
   display: block;
   margin: 0 auto;
   justify-content: center;
+  padding: 12px 24px;
 }
 
 .projects-container {
   padding-bottom: 120px;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.list-kind{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+
 }
