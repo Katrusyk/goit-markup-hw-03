@@ -105,7 +105,8 @@ card-set-item {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--cornflower)
+  border-bottom: 1px solid var(--cornflower);
+}
 
 .header-container {
   display: flex;
@@ -215,8 +216,6 @@ card-set-item {
   min-width: 169px;
   height: 56px;
 
-  border: none;
-
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
@@ -232,7 +231,8 @@ card-set-item {
 
 /* benefits */
 .benefits {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .benefits-title {
@@ -246,7 +246,6 @@ card-set-item {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  gap: 24px;
 }
 
 .benefits-item {
@@ -274,7 +273,6 @@ card-set-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  margin-bottom: 72px;
 }
 .working {
   font-size: 36px;
@@ -284,7 +282,6 @@ card-set-item {
 
   padding-top: 60px;
   padding-bottom: 120px;
-  
 }
 
 .title {
@@ -293,7 +290,6 @@ card-set-item {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-
 }
 
 .working-list {
